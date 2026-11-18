@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Avang VPN</string>
+    <string name="tagline">Fast, Minimal &amp; Secure</string>
+    <string name="status_disconnected">DISCONNECTED</string>
+    <string name="status_connected">CONNECTED</string>
+    <string name="btn_magic">Smart Ping Update</string>
+    <string name="btn_sub_manager">Manage Subscriptions</string>
+    <string name="btn_qr_scan">Scan QR Config</string>
+    <string name="btn_connect">CONNECT</string>
+    <string name="btn_disconnect">DISCONNECT</string>
+</resources>

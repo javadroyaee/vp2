@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="#FFFFFF"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_marginTop="24dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tagline"
+        android:textColor="#BA55D3"
+        android:textSize="12sp"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/status_disconnected"
+        android:textColor="#FF4C4C"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="#1A1A1A"
+        android:padding="10dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnMagic"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/btn_magic"
+        android:backgroundTint="#8A2BE2"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnSubManager"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="@string/btn_sub_manager"
+        android:backgroundTint="#2A2A2A"
+        android:textColor="#BA55D3"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnQrScan"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="@string/btn_qr_scan"
+        android:backgroundTint="#2A2A2A"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/btnPower"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:text="@string/btn_connect"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:backgroundTint="#4B0082"
+        android:elevation="10dp"
+        android:gravity="center"/>
+
+</LinearLayout>

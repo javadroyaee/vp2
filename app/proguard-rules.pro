@@ -1,0 +1,1 @@
+-keep class ir.avang.vpn.** { *; }
